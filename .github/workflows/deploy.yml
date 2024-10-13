@@ -39,4 +39,4 @@ jobs:
         with:
           project: "cold-mouse-87"
           entrypoint: "main.ts"
-          root: "."
+          root: "Blog-made-with-deno/"

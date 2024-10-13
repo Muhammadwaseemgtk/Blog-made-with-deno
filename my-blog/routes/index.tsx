@@ -24,7 +24,7 @@ export default function Home(props: PageProps<Post[]>) {
 
 function PostEntry(props: { post:Post }){
   const post = props.post
-  return <li class="border-t py-2">
+  return <li class="border-t py-6">
     <a href={`/blog/${post.id}`} class='flex py-2 gap-4 group'>
     <div>{post.published_at.toLocaleDateString()}</div>
     <div>
